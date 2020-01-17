@@ -3,6 +3,7 @@ import { Segment, Form, Button, Icon } from 'semantic-ui-react';
 
 class EventForm extends Component {
     render() {
+      const {cancelFormOpen} = this.props;
         return (
                   <Segment>
                     <Form>
@@ -32,7 +33,7 @@ class EventForm extends Component {
                         <Icon name='angle double right' />
                         </Button.Content>
                      </Button>
-                      <Button inverted color='red' type="button">Cancel</Button>
+                      <Button onClick={cancelFormOpen}inverted color='red' type="button">Cancel</Button>
                     </Form>
                   </Segment>
         )

@@ -12,6 +12,7 @@ class App extends Component {
         <Container className="main">
           <EventDashboard /> 
         </Container>
+        
       </Fragment>  
     );
   }

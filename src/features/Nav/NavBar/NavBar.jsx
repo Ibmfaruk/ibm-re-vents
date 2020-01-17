@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component} from 'react'
 import { Menu, Button, Segment } from 'semantic-ui-react'
 
  class NavBar extends Component {
@@ -11,7 +11,7 @@ import { Menu, Button, Segment } from 'semantic-ui-react'
             background: "linear-gradient(to right, #004e92, #000428)"
         }
         return (
-     <div style={styles} fixed="top">
+     <div style={styles} className="navv">
         <Segment inverted style={styles}>
         <Menu inverted secondary>
         <img className="imgg" src="assets/logo.png" alt="logo" />
